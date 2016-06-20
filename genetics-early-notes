@@ -1,0 +1,18 @@
+Phylogenetics / Genetic Meeting Notes 1
+
+  - Starting with an aligned sequence, and looking at what real time solutions can be produced from that point, 
+  - e.g. an epidemic sequence collection exists, what new questions should be being answered when new sequences are added.
+  
+  1. Given a new sequence, a new time tree is produced. Inference that is gleaned from this new tree in terms of how it changes the previous
+  tree and whether this new sequence suggests a new introduction rather than a missing contact. 
+  2. Function that produces statistical elements of time trees that give indication of public health interest, e.g dense clusters of related
+  sequences that are usually not associated with high incidence. 
+  3. Useful to generate time trees that are limited only to plausibly rooted trees given time constraints, i.e. how to balance mutation rates
+  and tree shape that rule out inplausibly ancient rooted trees. 
+
+Basic problem to address then :
+
+1. Given a new sequence how to create a new time tree quickly that allows ...
+2. How to use series of time trees to produce statistical warnings about the epidemic, w.g. new rooting, branching parameters
+3. 
+  
